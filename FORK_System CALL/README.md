@@ -9,5 +9,5 @@
 		system call to sort the integers using quick sort. Also demonstrate zombie and orphan
 		states.
 #How to Compile
-- __gcc fork.c __
+- __gcc fork.c__
 - __./a.out__
