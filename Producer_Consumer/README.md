@@ -4,5 +4,5 @@
 + The solution for the producer is to either go to sleep or discard data if the buffer is full. The next time the consumer removes an item from the buffer, it notifies the producer, who starts to fill the buffer again. In the same way, the consumer can go to sleep if it finds the buffer to be empty. The next time the producer puts data into the buffer, it wakes up the sleeping consumer. The solution can be reached by means of *inter-process communication*, typically using semaphores. An inadequate solution could result in a **deadlock** where both processes are waiting to be awakened. The problem can also be generalized to have multiple producers and consumers.<br>
 
 ## HOW TO COMPILE CODE
-- *gcc filename.c -lpthread -o pdc*
+- *gcc producer_consumer.c -lpthread -o pdc*
 - *./pdc*
