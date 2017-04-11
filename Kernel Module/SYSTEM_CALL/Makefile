@@ -1,0 +1,1 @@
+obj-y := system_call.o
