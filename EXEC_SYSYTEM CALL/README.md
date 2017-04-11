@@ -14,4 +14,11 @@
 + There are two Codes Present in this Directory.
   - First file is **exec_parent.c** which take *array of Integer* and sort the elemnts and send it to the child process using
     **execv** function.
-  - Second code **exec_child.c** accept the array and search the element using **Binary Search**.
+  - Second code **exec_child.c** accept the array and search the element using **Binary Search**.<br>
+  
+ # How to Compile Code 
+ + _gcc exec_child.c -o child_
+ + _gcc exec_parent.c -o parent_
+ + _./parent_
+ 
+ 
