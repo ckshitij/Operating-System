@@ -1,5 +1,5 @@
 # Operating-System
- SPPU (INFORMATION TECHNOLOGY CODE)<br>
+ _SPPU (INFORMATION TECHNOLOGY CODE_)<br>
 ## There are Two parts 
 1. __User Level Codes__ 
   + Dinning Phillospher
